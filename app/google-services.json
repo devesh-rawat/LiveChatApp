@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "360446042584",
+    "project_id": "livechatapp-f3be8",
+    "storage_bucket": "livechatapp-f3be8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360446042584:android:b5623f5821ab8c2d50d2ad",
+        "android_client_info": {
+          "package_name": "swa.pin.livechatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvgK5MV6Se3_cg-TRhs_YzF_gOIB5196w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     id("com.google.devtools.ksp")
     id("com.google.dagger.hilt.android")
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -42,7 +43,12 @@ android {
 }
 
 dependencies {
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+    val nav_version = "2.8.9"
 
+    implementation("androidx.navigation:navigation-compose:$nav_version")
 
     ksp("com.google.dagger:hilt-compiler:2.56.1")
     implementation("com.google.dagger:hilt-android:2.56.1")
